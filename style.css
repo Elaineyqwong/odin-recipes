@@ -1,0 +1,50 @@
+p {
+  color: rgb(0, 0, 0);
+  /* background-color: bisque; */
+  opacity: 0.8;
+  text-align: justify;
+}
+
+h1,
+h2,
+h3 {
+  color: darkslategrey;
+  border-radius: 15px;
+  box-shadow: 3px 5px #888888;
+  width: 40%;
+  /* margin-left: 20px; */
+}
+
+h4 {
+  border: 2px /*solid violet*/;
+}
+
+body {
+  background-color: rgb(250, 231, 208);
+  background-image: url("recipes/pudding.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+  background-size: 500px 400px;
+}
+
+h1 {
+  break-before: always;
+}
+
+ul,
+ol {
+  break-inside: avoid;
+  list-style: crown;
+}
+
+.parent {
+  container-name: myContainer;
+  container-type: inline-size;
+}
+
+.child {
+  width: 100%;
+  border: 2px solid maroon;
+  background-color: bisque;
+}
